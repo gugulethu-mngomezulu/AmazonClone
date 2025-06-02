@@ -1,0 +1,208 @@
+.navbarbuild {
+  background-color: #131921;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  color: white;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.leftnavbarBuild {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.leftnavbarBuildlogo {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.leftnavbarBuildlogo:hover {
+  border: 1px solid white;
+  border-radius: 3px;
+}
+
+.amazon_logo {
+  width: 97px;
+  height: 100%;
+}
+
+.navbar_logo {
+  margin-left: 2px;
+  font-weight: 400;
+}
+
+.navbarBuildLocation {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.navbarBuildLocation:hover {
+  border-radius: 3px;
+  border: 1px solid white;
+}
+
+.navbarBuildLocationImg {
+  width: 20px;
+}
+
+.navbarBuildLocationimgIcon {
+  font-size: 22px;
+}
+
+.navbarBuildLocationPlace {
+  display: flex;
+  flex-direction: column;
+  line-height: 16px;
+}
+
+.navbarBuildLocationTop {
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+}
+
+.navberBuildLocationBottom {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.navbarBuildsearchBox {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.navbarBuildSearchBor {
+  display: flex;
+  width: 100%;
+  max-width: 650px;
+  height: 40px;
+  border-radius: 5px;
+  overflow: hidden;
+  background: white;
+}
+
+.navbarBuildSearchAll {
+  display: flex;
+  align-items: center;
+  background-color: #e6e6e6;
+  padding: 0 8px;
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+  border-right: 1px solid #ccc;
+}
+
+.navbarBuildChanneltext {
+  font-size: 14px;
+}
+
+.navbarBuildSearchboxtext {
+  flex: 1;
+  border: none;
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.navbarBuildSearchboxtext:focus {
+  outline: none;
+}
+
+.searchIconnavbarBuild {
+  background-color: #febd69;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  cursor: pointer;
+}
+
+.searchIconnavbarBuild:hover {
+  background-color: #f3a847;
+}
+
+.navbarBuildsearchboximgIcon {
+  font-size: 18px;
+  color: black;
+}
+
+/* Right side */
+.rightSidenavbarBuild {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.SouthAfricaFlag {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.SouthAfricanFlagImg {
+  width: 20px;
+  height: 20px;
+}
+
+.SAFlagnavbarBuild {
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.SAFlagnavbardrop {
+  color: white;
+  font-size: 18px;
+  margin-left: 2px;
+}
+
+.helloSignInnavbarBuild {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.helloSignInnavbarBuild:hover {
+  border-radius: 3px;
+  border: 1px solid white;
+}
+
+.helloTopnavbarBuild {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.SAnavbarbuildaccount {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Cart styling */
+.cartNavbarBuild {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.cartNavbarBuildIcon {
+  font-size: 22px;
+  margin-right: 4px;
+}
+
+.cartNavbarBuildText {
+  font-size: 14px;
+  font-weight: 600;
+}
